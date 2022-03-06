@@ -17,3 +17,6 @@ This ansible playbook and role do the following:
 1) Create user 'scoring'
 2) add user 'scoring' ssh key to the authorized_keys, so that it can execute ansible playbooks on itself or from outside
 3) Make user 'scoring' passwordless sudo
+
+# How to run
+`ansible-playbook playbook.yml -i inventory/hosts`
