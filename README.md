@@ -3,7 +3,7 @@ ansible playbook for the sysadmin course - University of Tartu
 
 # Project tree
 
-ansible
+this-repository/
  * [roles](ansible/roles)
    * [etais](ansible/roles/etais)
    * [tasks](ansible/roles/etais/tasks)
