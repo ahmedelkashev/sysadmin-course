@@ -1,11 +1,11 @@
-- hosts: all
+---
+- hosts: localhost
   user: centos
   become: yes
-  become_user: root
-
+  vars:
+    hostname: B123123
+    domain_name: sa.cs.ut.ee
+  
   roles:
-  - etais
-
-  tasks:
-  - name: Testing this out
-    debug: msg="Hello from user {{ ansible_user_id }} on server {{ ansible_hostname }}!"
+   - { role: etais, tags: etais } 
+   - { role: dns, tags: dns }
