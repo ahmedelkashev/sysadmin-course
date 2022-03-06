@@ -4,13 +4,13 @@ ansible playbook for the sysadmin course - University of Tartu
 # Project tree
 
 this-repository/
- * [roles](ansible/roles)
-   * [etais](ansible/roles/etais)
-   * [tasks](ansible/roles/etais/tasks)
-   * [main.yml](ansible/roles/etais/tasks/main.yml)
- * [playbook.yml](ansible/playbook.yml)
- * [inventory](ansible/inventory)
-     * [hosts](ansible/inventory/hosts)
+ * [roles](/roles)
+   * [etais](/roles/etais)
+   * [tasks](/roles/etais/tasks)
+   * [main.yml](/roles/etais/tasks/main.yml)
+ * [playbook.yml](/playbook.yml)
+ * [inventory](/inventory)
+     * [hosts](/inventory/hosts)
             
 # Objective
 This ansible playbook and role do the following:
