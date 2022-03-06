@@ -11,6 +11,7 @@
     group: root
     mode: '0644'
 
+# ansible-galaxy collection install ansible.posix
 - name: Change net.ipv6.conf.default.disable_ipv6 to 1.
   sysctl:
     name: net.ipv6.conf.default.disable_ipv6
